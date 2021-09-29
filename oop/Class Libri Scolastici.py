@@ -6,7 +6,7 @@ class Libri_Scolastici:
         self.prezzo = prezzo
 
     def scheda_libro(self):
-        return f"\nSched\n Materia: {self.materia}\n Numero Pagine: {self.numero_pagine}\n Editore: {self.editore}\n Prezzo: {self.prezzo}"
+        return f"\nScheda Libro\n Materia: {self.materia}\n Numero Pagine: {self.numero_pagine}\n Editore: {self.editore}\n Prezzo: {self.prezzo}"
 
 Libro_uno= Libri_Scolastici("Latino", "305", "Zanichelli", "24.90")
 Libro_due= Libri_Scolastici("Inglese", "186", "Tresei", "19.85")
